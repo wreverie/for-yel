@@ -22,7 +22,7 @@ let noButtonSize = 1;
 let yesButtonSize = 1;
 
 yesBtn.addEventListener("click", () => {
-  title.innerHTML = "Yay! I Love You!! 💗";
+  title.innerHTML = "AHIGHGGHIHGGIHIGHI YAHAAAAAY I LOVE YOU >_____< ";
   btnContainer.classList.add("hidden");
   changeImage("yes");
 });
@@ -51,12 +51,12 @@ function shrinkNoButton() {
 
 function generateMessage(noCount) {
   const messages = [
-    "No 😔",
-    "Are you sure? 🥺",
-    "Pookie please 🥹",
-    "Don't do this to me 😭",
-    "You're breaking my heart 💔",
-    "I'm gonna cry... 😭💔",
+    "NOOOOOOOOOOOOO",
+    "WHY :((( ",
+    "PLEASE BABY T____T ",
+    "i gon cry ",
+    "hmp",
+    "you don love me anymore",
   ];
   return messages[Math.min(noCount, messages.length - 1)];
 }
